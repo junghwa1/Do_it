@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_out"
+        android:layout_width="222dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="448dp"
+        android:text="로그아웃"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="222dp"
+        android:layout_height="37dp"
+        android:text="정보 수정"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_out" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="
+＃ 하루 3끼 식사는 거르지 않는다.\n
+＃ 식사시간은 규칙적으로 한다.\n
+＃ 식사는 천천히 꼭꼭 씹어서 먹는다.\n
+＃ 기름기가 적은 음식을 위주로 섭취한다.\n
+＃ 음식은 맵거나 짜지 않게 먹는다.\n
+＃ 인스턴트 음식보다는 자연음식, 집에서 조리한 음식을 선택한다.\n
+＃ 후식, 음료 등의 단 음식은 주의한다.\n
+＃ 음식은 골고루 섭취한다.\n
+＃ 간식은 조심해서 열량이 적게 나가는 것으로 선택한다.\n
+＃ 야식은 절대 금지한다.\n
+＃ 섬유소가 많은 음식은 충분히 섭취한다.\n
+＃ 음식을 지나치게 제한하지 않도록 한다.\n
+＃ 수분은 충분히 섭취한다.\n
+＃ 식사요법 실천은 꾸준하게 지킨다.
+"
+        android:textColor="#0B0A0A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="올바른 식사습관 기르기"
+        android:textColor="#0B0A0A"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
